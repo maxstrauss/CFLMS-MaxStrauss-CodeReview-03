@@ -1,0 +1,247 @@
+
+/* General */
+
+*
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+html 
+    background-color: #999896
+
+/* Header */
+
+header
+    background-color: #AA0010
+    height: 72.5px
+    display: flex
+    justify-content: space-between
+    padding: 1%
+    padding-left: 2%
+    
+#logo
+    padding-top: 0.9%
+
+/* Navbar */
+
+nav 
+    background-color: #3E3D3E
+    display: flex
+    align-content: center
+    padding-top: 1%
+    padding-bottom: 1%
+    ul
+        margin-bottom: 0px
+        margin-top: 0px
+        
+    li  
+        list-style-type: none
+        display: inline
+    a 
+        font-size: 20px
+        text-decoration: none
+        color: #FCFCFD 
+        padding-right: 40px
+
+a:hover 
+    color: #AA0010
+
+#banner1
+    display: show
+
+#currentpage
+    color: #AA0010
+
+
+
+/* Main Content */
+    
+
+#container
+    display: flex
+    justify-content: center
+    text-align: center
+
+/* Quote box*/
+
+#title
+    font-family: 'Bebas Neue', cursive
+    font-size: 3vw
+    margin-bottom: 1%
+    margin-top: 1%
+    text-align: center
+    text-shadow: 0px 0px 1px #3E3D3E
+    color: #AA0010
+
+
+#quotebox
+    width: 50%
+    background-color: #FCFCFD
+    padding: 2%
+    text-align: center
+    box-shadow: 0px 0px 16px 4px #3E3D3E
+    border-radius: 5px
+    
+
+   
+
+    h1 
+        font-size: 2vw
+        font-family: 'Fjalla One', sans-serif
+
+
+#row
+    display: flex
+    justify-content: space-evenly
+    align-content: space-evenly
+
+    p 
+        font-size: 1vw
+
+    input, select
+        outline: none
+        height: 2vw
+        width: 20vw
+        font-size: 1vw
+        box-shadow: 0px 0px 200px 0px  #3E3D3E
+
+
+
+
+/* Submit button */
+
+#submitbutton
+    background-color: #AA0010
+    width: 30%
+    height: 11%
+    margin-top: 5%
+    font-size: 1.5vw
+    border-radius: 5px
+    border-color: black
+    position: inherit
+
+#submitbutton:hover
+    box-shadow: 0px 0px 16px 4px #3E3D3E
+    background-color: #52BE2F
+
+#container2
+    display: flex
+    justify-content: center
+    display: none
+    margin-left: 20%
+    margin-right: 20%
+    margin-top: 2%
+
+/* Quote result box */
+
+#quoteresult
+    display: flex
+    justify-content: center
+    padding-top: 1%
+    padding-bottom: 1%
+    margin-top: 1%
+    margin-bottom: 1%
+    background-color: #52BE2F
+    
+    border-radius: 100px
+
+#result
+ 
+    font-size: 3vw
+    margin: 0%
+
+/* Info text */
+
+#infotext
+    width: 75%     
+    background-image: url("../img/599GTO.jpg")
+    background-size: 100%
+    border-radius: 10px
+    margin-top: 5%
+    
+    h2 
+        font-size: 3.5vw
+        color: #AA0010
+        margin-top: 0vw
+        font-family: 'Bebas Neue', cursive
+        text-shadow: 1px 1px 2px #3E3D3E
+    p  
+        font-size: 2.5vw
+        font-family: 'Bebas Neue', cursive
+        color: #FCFCFD
+        text-shadow: 1px 1px 2px #3E3D3E
+
+#background
+    background-color: rgba(153, 152, 150, 0.3)
+    border-radius: 10px
+    width: 100%
+    background-size: 100%
+    padding-top: 3.5vw
+    padding-bottom: 1.4vw
+
+#container3
+    display: flex
+    justify-content: space-evenly
+    margin-bottom: 5%
+    margin-top: 5%
+
+    
+#infobox
+    width: 27%
+    padding-left: 2%
+    padding-right: 2%
+    box-shadow: 0px 0px 10px 1px #3E3D3E
+    h3
+        font-size: 2vw
+        font-family: 'Fjalla One', sans-serif
+        margin-bottom: 1%
+    h4
+        font-size: 1.2vw
+        font-family: 'Fjalla One', sans-serif
+        margin-bottom: 1%
+    p, li   
+        font-size: 1.1vw
+        font-family: 'Fjalla One', sans-serif
+    
+    ul
+        list-style: none
+        padding-left: 1%
+    ul li:before
+        content: '✓ '
+
+
+
+
+
+#infobox:hover
+    box-shadow: 0px 0px 20px 1px #3E3D3E
+
+/* Footer */
+
+footer
+    background-color: black
+    text-align: center
+    padding: 2%
+    color: #FCFCFD
+
+#navbottom
+    a
+        font-size: 15px
+        
+#logobottom
+    float: right
+    margin-top: 2%
+		
+#footertext
+    color: white
+    margin: 0
+    padding: 20px
+
+
+
+
+
+/* Smaller displays - smaller than 72px */
+
+@media screen and (max-width: 720px) 
+    #banner1
+        display: none
+
+
