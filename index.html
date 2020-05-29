@@ -7,8 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-
-
 	<title>Insurance CF - Get your quote today!</title>
 </head>
 
@@ -21,7 +19,9 @@
 			<img src="img/logo.png" alt="CF Logo">
 		</span>
 		<span id="banner1">
-			<a href="https://codefactory.wien/" target="_blank"><image src="img/banner.png" alt="Banner"></a>
+			<a href="https://codefactory.wien/" target="_blank">
+				<image src="img/banner.png" alt="Banner">
+			</a>
 		</span>
 	</header>
 
@@ -35,60 +35,63 @@
 		</ul>
 	</nav>
 
-	<h1 id="title">Car Insurance</h1>
-
 	<!-- Quote box -->
 
 	<main>
-		<div id="container">
-			<div id=quotebox>
+		<div id="background-image">
 
-				<h1>Great coverages begins with a custom quote</h1>
+			<h1 id="title">Car Insurance</h1>
 
-				<div id="row">
-					<div>
-						<p>Your Name</p>
-						<input type="text" id="name" placeholder="Your Name">
+			<div id="container">
+				<div id=quotebox>
+
+					<h1>Great coverages begins with a custom quote</h1>
+
+					<div id="row">
+						<div>
+							<p>Your Name</p>
+							<input type="text" id="name" placeholder="Your Name">
+						</div>
+
+						<div>
+							<p>Your Age</p>
+							<input type="number" id="age" placeholder="Your Age">
+						</div>
+					</div>
+					<div id="row">
+						<div>
+							<p>Your Country</p>
+							<select id="country">
+								<option>Choose your country</option>
+								<option>Austria</option>
+								<option>Hungary</option>
+								<option>Greece</option>
+							</select>
+						</div>
+						<div>
+							<p>Horsepower</p>
+							<input type="number" id="hp" placeholder="0">
+						</div>
 					</div>
 
-					<div>
-						<p>Your Age</p>
-						<input type="number" id="age" placeholder="Your Age">
-					</div>
-				</div>
-				<div id="row">
-					<div>
-						<p>Your Country</p>
-						<select id="country">
-							<option>Choose your country</option>
-							<option>Austria</option>
-							<option>Hungary</option>
-							<option>Greece</option>
-						</select>
-					</div>
-					<div>
-						<p>Horsepower</p>
-						<input type="number" id="hp" placeholder="0">
-					</div>
-				</div>
+					<input type="submit" id="submitbutton" value="Calculate">
 
-				<input type="submit" id="submitbutton" value="Calculate">
-
-			</div>
-		</div>
-
-		<!-- Quote result -->
-
-		<div id="container2">
-			<div id="quoteresult">
-				<div>
-					<p id="result"></p>
 				</div>
 			</div>
+
+			<!-- Quote result -->
+
+			<div id="container2">
+				<div id="quoteresult">
+					<div>
+						<p id="result"></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- Infotext -->
+
 		</div>
-
-		<!-- Infotext -->
-
 		<div id="container">
 			<article id="infotext">
 				<div id=background>
@@ -126,9 +129,7 @@
 				<p>Accident Forgiveness | New Car Replacement</p>
 			</div>
 		</div>
-
 	</main>
-
 	<!-- Footer -->
 
 	<footer>
@@ -140,13 +141,13 @@
 			</ul>
 		</nav>
 
-		<a href="https://codefactory.wien/" target="_blank"><img id="logobottom" src="img/logo-inv.png" alt="CF Logo"></a>
+		<a href="https://codefactory.wien/" target="_blank"><img id="logobottom" src="img/logo-inv.png"
+				alt="CF Logo"></a>
 		<p id="footertext">Max Strauss - CodeFactory 2020</p>
 
 	</footer>
 
-
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/indexscript.js"></script>
 </body>
 
 </html>
