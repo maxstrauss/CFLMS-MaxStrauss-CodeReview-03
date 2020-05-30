@@ -38,7 +38,7 @@ nav {
     list-style-type: none;
     display: inline; }
   nav a {
-    font-size: 2vw;
+    font-size: 200%;
     text-decoration: none;
     color: #FCFCFD;
     padding-right: 40px;
@@ -126,7 +126,7 @@ a:hover {
   justify-content: center;
   padding-top: 1%;
   padding-bottom: 1%;
-  background-color: rgba(82, 190, 47, 0.8);
+  background-color: rgba(82, 190, 47, 0.9);
   border-radius: 100px;
   box-shadow: 0px 0px 16px 4px #fcfcfd; }
 
@@ -238,5 +238,14 @@ footer {
   .teamBox p {
     margin: 1%;
     font-size: 1.2vw; }
+
+.submitbuttonTeam {
+  margin: 5%;
+  background-color: #AA0010;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0px 0px 20px 1px #3E3D3E;
+  width: 60%;
+  font-size: 1vw; }
 
 /*# sourceMappingURL=stylesheet.css.map */
