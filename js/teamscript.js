@@ -11,7 +11,7 @@ class Teammember {
     addTeammember() {
         document.getElementById("teamdiv").innerHTML +=
             `<div class="teamBox">
-                <img class="teamBoxImg" src="${this.classImg}" alt="" />
+                <img class="teamBoxImg" src="${this.classImg}" alt="Team image" </>
                 <h2 class="teamBoxName">${this.className}</h2>
                 <h3 class="teamBoxEmail">${this.classEmail}</h3>
                 <input type="Button" class="submitbuttonTeam" id="${this.className}button" value="Show more about ${this.className}">
@@ -36,22 +36,31 @@ for (var memberOutput of team) {
 }
 
 
-
-/**** show text ****/
-
+/*Display the about Text*/
 
 
-
-document.getElementById("Franbutton").addEventListener("click",showAbout,false);
-
+/*Didn't had enough time to figure out how to use the class keyword´s for this part*/
 
 
-
-function showAbout() {
+function showAboutFran() {
     document.getElementById("Franabout").style.display = "block";
+};
+
+function showAboutBill() {
+    document.getElementById("Billabout").style.display = "block";
+};
+
+function showAboutFritz() {
+    document.getElementById("Fritzabout").style.display = "block";
+};
+
+function showAboutBianca() {
+    document.getElementById("Biancaabout").style.display = "block";
 };
 
 
 
-
-
+document.getElementById("Franbutton").addEventListener("click", showAboutFran);
+document.getElementById("Billbutton").addEventListener("click", showAboutBill);
+document.getElementById("Fritzbutton").addEventListener("click", showAboutFritz);
+document.getElementById("Biancabutton").addEventListener("click", showAboutBianca);

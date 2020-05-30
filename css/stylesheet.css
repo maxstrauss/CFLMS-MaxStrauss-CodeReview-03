@@ -226,7 +226,9 @@ footer {
   width: 25%;
   border-style: solid;
   margin: 2%;
-  text-align: center; }
+  text-align: center;
+  height: 400px;
+  padding-bottom: 6%; }
   .teamBox img {
     width: 100%; }
   .teamBox h2 {
